@@ -90,15 +90,15 @@
   "model": "user.course",
   "pk": 2,
   "fields": {
-    "name": "Machine Learning A-Z\u2122: Hands-On Python & R In Data Science",
-    "slug": "machine-learning-a-ztm-hands-on-python-r-in-data-science",
-    "description": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.\r\n\r\n    Master Machine Learning on Python & R\r\n    Have a great intuition of many Machine Learning models\r\n    Make accurate predictions",
+    "name": "Machine Learning A-Z\u2122: Hands-On Python In Data Science",
+    "slug": "machine-learning-a-ztm-hands-on-python-in-data-science",
+    "description": "Learn to create Machine Learning Algorithms in Python from two Data Science experts. Code templates included.\r\n\r\n    Master Machine Learning on Python\r\n    Have a great intuition of many Machine Learning models\r\n    Make accurate predictions",
     "author": "Kirill Eremenko, Hadelin de Ponteves,, Ligency Team",
     "duration": "44",
     "enrolled_count": 7690,
     "thumbnail": "course_thumbnails/950390_270f_3.jpg",
     "created_at": "2021-03-31T13:03:01.641Z",
-    "updated_at": "2021-04-04T13:25:31.473Z"
+    "updated_at": "2021-04-18T09:32:45.789Z"
   }
 },
 {
@@ -136,12 +136,12 @@
   "pk": 1,
   "fields": {
     "course": 2,
-    "name": "Applications of Machine Learning",
-    "description": "BONUS #1: Learning Paths\r\nBONUS #2: ML vs. DL vs. AI - What\u2019s the Difference?\r\nBONUS #3: Regression Types",
-    "duration": "2.45 minutes",
-    "video": "lession_videos/nhf-ofxf-rav4-converted.mp4",
+    "name": "Regression Intro - Practical Machine Learning Tutorial with Python",
+    "description": "To begin, what is regression in terms of us using it with machine learning? The goal is to take continuous data, find the equation that best fits the data, and be able forecast out a specific value. With simple linear regression, you are just simply doing this by creating a best fit line.\r\n\r\nFrom here, we can use the equation of that line to forecast out into the future, where the 'date' is the x-axis, what the price will be.\r\n\r\nA popular use with regression is to predict stock prices. This is done because we are considering the fluidity of price over time, and attempting to forecast the next fluid price in the future using a continuous dataset.\r\n\r\nRegression is a form of supervised machine learning, which is where the scientist teaches the machine by showing it features and then showing it was the correct answer is, over and over, to teach the machine. Once the machine is taught, the scientist will usually \"test\" the machine on some unseen data, where the scientist still knows what the correct answer is, but the machine doesn't. The machine's answers are compared to the known answers, and the machine's accuracy can be measured. If the accuracy is high enough, the scientist may consider actually employing the algorithm in the real world.",
+    "duration": "10.57 minutes",
+    "video": "lession_videos/Regression_Intro_-_Practical_Machine_Learning_Tutorial_with_Python_p.2.mp4",
     "created_at": "2021-03-31T13:03:01.713Z",
-    "updated_at": "2021-03-31T16:09:53.615Z"
+    "updated_at": "2021-04-18T09:46:58.752Z"
   }
 },
 {
@@ -149,12 +149,25 @@
   "pk": 2,
   "fields": {
     "course": 2,
-    "name": "Why Machine Learning is the Future",
-    "description": "Important notes, tips & tricks for this course\r\n\r\nThis PDF resource will help you a lot!\r\n\r\nGET ALL THE CODES AND DATASETS HERE!",
-    "duration": "5 minutes",
-    "video": "lession_videos/Windows_7_Sample_Videos_the_Running_Horses.mp4",
+    "name": "Practical Machine Learning Tutorial with Python Intro",
+    "description": "The objective of this course is to give you a holistic understanding of machine learning, covering theory, application, and inner workings of supervised, unsupervised, and deep learning algorithms.\r\n\r\nIn this series, we'll be covering linear regression, K Nearest Neighbors, Support Vector Machines (SVM), flat clustering, hierarchical clustering, and neural networks.\r\n\r\nMachine learning was defined in 1959 by Arthur Samuel as the \"field of study that gives computers the ability to learn without being explicitly programmed.\" This means imbuing knowledge to machines without hard-coding it.",
+    "duration": "5.54 minutes",
+    "video": "lession_videos/Practical_Machine_Learning_Tutorial_with_Python_Intro_p.1.mp4",
     "created_at": "2021-03-31T13:03:01.713Z",
-    "updated_at": "2021-03-31T16:09:34.856Z"
+    "updated_at": "2021-04-18T09:46:50.483Z"
+  }
+},
+{
+  "model": "user.lession",
+  "pk": 3,
+  "fields": {
+    "course": 2,
+    "name": "Regression Features and Labels - Practical Machine Learning Tutorial with Python",
+    "description": "We'll be using the numpy module to convert data to numpy arrays, which is what Scikit-learn wants. We will talk more on preprocessing and cross_validation when we get to them in the code, but preprocessing is the module used to do some cleaning/scaling of data prior to machine learning, and cross_ alidation is used in the testing stages. Finally, we're also importing the LinearRegression algorithm as well as svm from Scikit-learn, which we'll be using as our machine learning algorithms to demonstrate results.\r\n\r\nThus, for training the machine learning classifier, the features are customer attributes, the label is the premium associated with those attributes.",
+    "duration": "10.16 minutes",
+    "video": "lession_videos/Regression_Features_and_Labels_-_Practical_Machine_Learning_Tutorial_with_FvuGmFD.mp4",
+    "created_at": "2021-04-18T09:36:27.885Z",
+    "updated_at": "2021-04-18T09:46:40.259Z"
   }
 },
 {
